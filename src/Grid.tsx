@@ -22,7 +22,7 @@ export default function Grid() {
       <GridCol gridCol={3} colYCoordinate={30} colors={colors.slice(4, 6)} />
       <GridCol gridCol={4} colYCoordinate={-20} colors={colors.slice(6, 8)} />
       <GridCol gridCol={5} colYCoordinate={40} colors={colors.slice(8, 10)} />
-      <GridCol gridCol={6} colYCoordinate={40} colors={colors.slice(10, 12)} />
+      <GridCol gridCol={6} colYCoordinate={-30} colors={colors.slice(10, 12)} />
       <GridCol gridCol={7} colYCoordinate={20} colors={colors.slice(12, 14)} />
     </div>
   );
