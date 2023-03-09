@@ -74,3 +74,20 @@ h1 {
     border-radius: 10px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .input {
+    width: 300px;
+  }
+  .grid {
+    padding: 0 15px;
+    gap: 20px;
+    .grid-col {
+      padding: 0;
+      height: 300px;
+    }
+    .grid-item {
+      height: 180px;
+    }
+  }
+}
